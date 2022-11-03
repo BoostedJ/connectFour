@@ -127,10 +127,6 @@ class ConnectFour:
         check(counter(top_iter, "diagonal", 0, 1) + counter(bottom_iter, "diagonal", 1, 0) - 1)
 
 
-def main():
+if __name__ == "__main__":
     game = ConnectFour()
     game.play()
-
-
-if __name__ == "__main__":
-    main()
