@@ -105,8 +105,6 @@ class ConnectFour:
                         break
                     else:
                         count += 1
-                else:
-                    break
             return count
 
         def check(count):
